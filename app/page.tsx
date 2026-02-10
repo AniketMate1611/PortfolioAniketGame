@@ -82,10 +82,22 @@ export default function Home() {
               className="flex overflow-x-auto gap-3 scrollbar-hide scroll-smooth pl-10 pr-10"
             >
               <GameCard
+                title="Supermarket Showdown"
+                description="Physics based ragdoll Game PVP Party"
+                 image="/SupermarketShowdownThumbnail.png"
+                video="/SuperMarketShodownVideo.mp4"
+              />
+              <GameCard
                 title="RiskBound"
                 description="Hack and Slash with Risk Factor"
                  image="/RiskBoundThumbnail.png"
                 video="/RiskBoundVideo.mp4"
+              />
+                 <GameCard
+                title="[C]raft"
+                description="An Idle Clicker Game with Automation"
+                 image="/CRaftThumbnail.png"
+                video="/CRaftVideo.mp4"
               />
               <GameCard
                 title="Poppit"
